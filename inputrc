@@ -1,0 +1,17 @@
+This file controls the behaviour of line input editing for
+# programs that use the Gnu Readline library.  Existing programs
+# include FTP, Bash, and Gdb.
+#
+# You can re-read the inputrc file with C-x C-r.
+# Lines beginning with '#' are comments.
+#
+# First, include any systemwide bindings and variable assignments from
+# /etc/Inputrc
+$include /etc/Inputrc
+#
+# Tab completion thingies
+# Give list of possibles at first Tab press
+set show-all-if-ambiguous on
+# Case-insensitive completion even for underscores 
+set completion-ignore-case on
+set completion-map-case on
