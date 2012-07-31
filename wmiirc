@@ -102,7 +102,7 @@ wmiir write /rules <<!
 #	/urxvt/ force-tags=[3]
 
     # VLC goes to its own tag
-    /vlc/ force-tags=[5]
+#    /vlc/ force-tags=[5]
 
     # Communications go to channel 7
     /.*pidgin.*/ force-tags=[7]

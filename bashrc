@@ -104,9 +104,9 @@ fi
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
-if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
-    . /etc/bash_completion
-fi
+#if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+#    . /etc/bash_completion
+#fi
 
 # make bash look in profile file for PATH
 # commented because this seems to cause lag and death
@@ -119,3 +119,4 @@ fi
 # Let bash try to fix typing errors in directory paths
 #shopt -s cdspell
 
+export PROMPT_COMMAND="history -n; history -a"

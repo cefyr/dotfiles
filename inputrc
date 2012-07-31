@@ -7,8 +7,11 @@ This file controls the behaviour of line input editing for
 #
 # First, include any systemwide bindings and variable assignments from
 # /etc/Inputrc
-$include /etc/Inputrc
+$include /etc/inputrc
 #
+# Try the bind shit for T
+"T":self-insert
+
 # Tab completion thingies
 # Give list of possibles at first Tab press
 set show-all-if-ambiguous on
