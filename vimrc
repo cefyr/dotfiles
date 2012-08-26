@@ -55,11 +55,11 @@ endif
 
 " My default tab stuff
 set autoindent
-set tabstop=8
-set shiftwidth=8
+set tabstop=4
+set shiftwidth=4
 set smarttab
-"set noexpandtab 
-"set softtabstop=4
+set expandtab 
+set softtabstop=4
 
 " If computer has wildmenu:
 " Make tab completion work like it does in bash
