@@ -120,3 +120,5 @@ fi
 #shopt -s cdspell
 
 export PROMPT_COMMAND="history -n; history -a"
+
+export EDITOR="/usr/bin/vim"
